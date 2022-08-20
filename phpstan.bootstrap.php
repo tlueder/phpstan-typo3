@@ -17,5 +17,9 @@ define('TYPO3_REQUESTTYPE_INSTALL', 16);
 
 define('TYPO3_MODE', '');
 define('TYPO3_mainDir', 'typo3/');
-define('TYPO3_version', '');
-define('TYPO3_branch', '');
+if (!defined('TYPO3_version')) {
+	define('TYPO3_version', '');
+}
+if (!defined('TYPO3_branch')) {
+	define('TYPO3_branch', '');
+}
